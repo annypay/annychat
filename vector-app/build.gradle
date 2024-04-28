@@ -143,7 +143,7 @@ android {
     compileSdk versions.compileSdk
 
     defaultConfig {
-        applicationId "im.neboer.app"
+        applicationId "im.Achat.app"
         // Set to API 21: see #405
         minSdk versions.minSdk
         targetSdk versions.targetSdk
@@ -247,7 +247,7 @@ android {
         debug {
             applicationIdSuffix ".debug"
             signingConfig signingConfigs.debug
-            resValue "string", "app_name", "Nelement dbg"
+            resValue "string", "app_name", "Achat dbg"
 
             if (project.hasProperty("coverage")) {
                 testCoverageEnabled = coverage == "true"
@@ -255,7 +255,7 @@ android {
         }
 
         release {
-            resValue "string", "app_name", "Nelement"
+            resValue "string", "app_name", "Achat"
             postprocessing {
                 // FIXME Set to true.
                 removeUnusedCode false
@@ -318,14 +318,14 @@ android {
 
             dimension "store"
             isDefault = true
-            versionName "Neboer ${versionMajor}.${versionMinor}.${versionPatch}${getGplayVersionSuffix()}"
+            versionName "Achat ${versionMajor}.${versionMinor}.${versionPatch}${getGplayVersionSuffix()}"
             buildConfigField "String", "SHORT_FLAVOR_DESCRIPTION", "\"G\""
             buildConfigField "String", "FLAVOR_DESCRIPTION", "\"GooglePlay\""
         }
 
         fdroid {
             dimension "store"
-            versionName "Neboer ${versionMajor}.${versionMinor}.${versionPatch}${getFdroidVersionSuffix()}"
+            versionName "Achat ${versionMajor}.${versionMinor}.${versionPatch}${getFdroidVersionSuffix()}"
             buildConfigField "String", "SHORT_FLAVOR_DESCRIPTION", "\"F\""
             buildConfigField "String", "FLAVOR_DESCRIPTION", "\"FDroid\""
         }
