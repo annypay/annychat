@@ -26,6 +26,7 @@ jobs:
           path: |
             vector-app/build/outputs/apk/*/release/*.apk
 
+            
   release-gplay:
     name: Build unsigned GPlay APKs
     runs-on: ubuntu-latest
