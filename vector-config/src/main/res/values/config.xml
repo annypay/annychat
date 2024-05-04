@@ -21,12 +21,12 @@
     <string name="pusher_http_url" translatable="false">https://sygnal.neboer.site/_matrix/push/v1/notify</string>
     <!-- Note: default_push_gateway_http_url should have path '/_matrix/push/v1/notify' -->
     <!-- It is the push gateway for UnifiedPush -->
-    <string name="default_push_gateway_http_url" translatable="false">https://sygnal.neboer.site/_matrix/push/v1/notify</string>
+    <string name="default_push_gateway_http_url" translatable="false">https://notify.neboer.site/_matrix/push/v1/notify</string>
     <!-- Note: pusher_app_id cannot exceed 64 chars -->
     <string name="pusher_app_id" translatable="false">im.Achat.app.android</string>
 
     <!-- preferred jitsi domain -->
-    <string name="preferred_jitsi_domain" translatable="false">meet.neboer.site</string>
+    <string name="preferred_jitsi_domain" translatable="false">meet.Achat.site</string>
 
     <string-array name="room_directory_servers" translatable="false">
         <item>matrix.org</item>
